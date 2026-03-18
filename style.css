@@ -1,0 +1,55 @@
+/* Subtle dark grid pattern background */
+body {
+    background-color: #121212;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.academic-title {
+    font-family: 'Playfair Display', serif;
+}
+
+.section-border {
+    border-top: 1px solid rgba(255, 71, 71, 0.3);
+    padding-top: 2rem;
+}
+
+.hover-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Hide scrollbars for carousels but keep functionality */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section[id] {
+    scroll-margin-top: 80px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#role-text {
+    transition: opacity 0.2s ease-out;
+}
+
+/* Tech stack: consistent icon and label vertical alignment */
+[data-purpose="tech-stack"]>div {
+    align-items: stretch !important;
+}
+
+[data-purpose="tech-stack"]>div>div>svg:first-child,
+[data-purpose="tech-stack"]>div>div>div:first-child {
+    margin-top: auto;
+    margin-bottom: auto;
+}
