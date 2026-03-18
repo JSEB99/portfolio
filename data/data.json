@@ -1,0 +1,134 @@
+{
+    "roles": [
+        "Data Engineer",
+        "Data Analyst",
+        "Data Scientist"
+    ],
+    "about": "Electronic Engineer specialized in Databases, experienced in building ETL pipelines, API integrations, and automating processes with Python, SQL, Power BI, and GCP. Expert in delivering end-to-end data solutions—cleaning, transforming, analyzing, and visualizing data—while optimizing efficiency. Strong problem-solving skills, fast learner, proactive, and effective communicator in agile teams and international projects.",
+    "jobs": [
+        {
+            "position": "Data Engineer",
+            "company": "SCI Software Development SAS",
+            "location": "Remote",
+            "startDate": "2026-01",
+            "endDate": "Present",
+            "description": [
+                "Built scalable ETL pipelines in Python and SQL on Google Cloud (BigQuery, Cloud Functions, Cloud Storage).",
+                "Processed high-volume datasets efficiently with optimized batch and concurrency strategies.",
+                "Integrated and managed external APIs (WhatsApp, SMS, OneSignal) for automated workflows.",
+                "Implemented monitoring, auditing, and alerting for reliable data operations.",
+                "Delivered data projects ahead of schedule, ensuring robust and scalable solutions."
+            ]
+        },
+        {
+            "position": "Academic and Tech Support Analyst",
+            "company": "FUNDACER (UTTalento)",
+            "location": "Remote",
+            "startDate": "2025-10",
+            "endDate": "2025-12",
+            "description": [
+                "Automated daily academic tracking reports, ensuring data accuracy and traceability.",
+                "Developed dashboards and management reports using Excel and Power BI.",
+                "Monitored performance metrics to detect issues and trends.",
+                "Supported process optimization through data analysis and improvement proposals.",
+                "Analyzed attendance and certification data of participants using Python and Power BI."
+            ]
+        },
+        {
+            "position": "Data Analyst",
+            "company": "Teleperformance",
+            "location": "Hybrid (Bogotá)",
+            "startDate": "2024-03",
+            "endDate": "2024-05",
+            "description": [
+                "Developed and maintained dimensional data models, improving OLAP query efficiency and handling large datasets.",
+                "Created dashboards and visualizations in Power BI and Excel to track KPIs and metrics, supporting decision-making.",
+                "Proposed improvements in data extraction and transformation processes to enhance efficiency and ensure continuous improvement."
+            ]
+        },
+        {
+            "position": "RPG Developer",
+            "company": "Sistemas GYG SA",
+            "location": "Motavita, Boyacá",
+            "startDate": "2022-11",
+            "endDate": "2023-04",
+            "description": [
+                "Provided technical support for critical financial systems in high-availability environments.",
+                "Performed advanced DB2 queries to analyze transactions and resolve production issues.",
+                "Monitored critical batch jobs, identifying and fixing errors to ensure operational continuity.",
+                "Completed RPG training in Oct 2022."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Geospatial Crime Analytics – Public Safety Data Product",
+            "description": "The target of this project is to analyze the crimes data recolected from police database, so you could invest more time taking decisions and less in cleaning, organizing and building insights from raw data.",
+            "stack": [
+                "Python",
+                "Power-BI",
+                "AWS-RDS-PostgreSQL",
+                "Google-Drive-API"
+            ],
+            "github": "https://github.com/JSEB99/police-etl"
+        },
+        {
+            "name": "Predictive Health Resources - ETL",
+            "description": "Developed a predictive model to forecast patient demand across healthcare facilities using historical and operational data, enabling optimized allocation of staff, beds, and supplies. Conducted data analysis, built a star schema, and deployed the model to improve efficiency and responsiveness in healthcare services.",
+            "stack": [
+                "Polars",
+                "Streamlit",
+                "FastAPI",
+                "NumPy",
+                "BigQuery",
+                "Scikit-Learn"
+            ],
+            "github": "https://github.com/JSEB99/predictive-health-resources"
+        },
+        {
+            "name": "Supply Chain Delay Risk Predictor – AI & ETL Dashboard",
+            "description": "Developed SupplyRisk AI, a predictive model to classify and forecast shipment delays using machine learning on global supply chain data. Analyzed key risk factors and provided insights for optimizing logistics and generating early delay alerts.",
+            "stack": [
+                "Supabase",
+                "Streamlit",
+                "PostgreSQL",
+                "Python",
+                "Pandas",
+                "Scikit-Learn"
+            ],
+            "youtube": "https://www.youtube.com/watch?v=MP54oDOi87g&feature=youtu.be",
+            "github": "https://github.com/JSEB99/s21-08-n-data"
+        }
+    ],
+    "studies": {
+        "core-education": [
+            {
+                "title": "B.S. in Electronic Engineering",
+                "institution": "Universidad Pedagógica y Tecnológica de Colombia",
+                "description": "Strong foundation in programming, data management, and electronic systems."
+            },
+            {
+                "title": "Database Specialization",
+                "institution": "Universidad Pedagógica y Tecnológica de Colombia",
+                "description": "Post-graduate studies in Database Management and Data Flows"
+            }
+        ],
+        "certifications": [
+            {
+                "title": "Azure Data Scientist - DP100",
+                "institution": "Microsoft",
+                "description": "Associate Level Certification"
+            },
+            {
+                "title": "Azure Data Fundamentals - DP900",
+                "institution": "Microsoft",
+                "description": "Fundamentals Certification"
+            },
+            {
+                "title": "Oracle Cloud Infrastructure 2025",
+                "institution": "Oracle",
+                "description": "Foundations Associate Certification"
+            }
+        ]
+    }
+}

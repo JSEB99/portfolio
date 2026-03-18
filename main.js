@@ -17,22 +17,4 @@ links.forEach(link => {
     });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    const roleElement = document.getElementById('role-text');
-    const roles = ["Data Engineer", "Data Analyst", "Data Scientist"];
-    let currentIndex = 0;
-
-    function updateRole() {
-        // Efecto de desvanecimiento (opcional pero recomendado)
-        roleElement.style.opacity = 0;
-
-        setTimeout(() => {
-            currentIndex = (currentIndex + 1) % roles.length;
-            roleElement.textContent = roles[currentIndex];
-            roleElement.style.opacity = 1;
-        }, 200); // Tiempo que tarda en desaparecer
-    }
-
-    // Cambia cada 3 segundos
-    setInterval(updateRole, 2000);
-});
+// Role rotation is now handled by data-loader.js (reads roles from data/data.json)

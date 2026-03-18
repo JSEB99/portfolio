@@ -39,6 +39,7 @@
         }
     </script>
     <script src="main.js" defer></script>
+    <script src="data-loader.js" defer></script>
 </head>
 
 <body class="text-slate-300 font-sans leading-relaxed relative overflow-x-hidden">
@@ -81,12 +82,7 @@
             </p>
 
             <div class="max-w-5xl">
-                <p class="text-base md:text-lg text-slate-400 leading-relaxed">
-                    Electronic Engineer specialized in Databases, experienced in building ETL pipelines, API
-                    integrations, and automating processes with Python, SQL, Power BI, and GCP. Expert in delivering
-                    end-to-end data solutions—cleaning, transforming, analyzing, and visualizing data—while optimizing
-                    efficiency. Strong problem-solving skills, fast learner, proactive, and effective communicator in
-                    agile teams and international projects.
+                <p id="about-text" class="text-base md:text-lg text-slate-400 leading-relaxed">
                 </p>
             </div>
         </header>
@@ -316,115 +312,8 @@
                     <!-- Single Horizontal Timeline Line -->
                     <div class="absolute top-2 left-0 w-full h-[1px] bg-brand/20 z-0"></div>
                     <!-- Experience Carousel Content -->
-                    <div class="flex gap-8 snap-x snap-mandatory relative z-10 px-0">
-                        <!-- Role 1 -->
-                        <div class="w-[80vw] sm:w-[70vw] md:w-[400px] flex-shrink-0 snap-start flex flex-col">
-                            <div class="w-4 h-4 bg-brand rounded-full border-2 border-[#121212] shadow-sm mb-8"></div>
-                            <div class="bg-brand-surface/95 backdrop-blur-sm p-6 border border-white/10 rounded-custom shadow-sm 
-            h-[500px] md:h-[420px] flex flex-col overflow-y-auto">
-                                <div class="flex flex-col mb-4">
-                                    <span class="text-xs font-mono text-brand/60 uppercase tracking-widest mb-1">Jan,
-                                        2026 —
-                                        Present</span>
-                                    <h3 class="text-lg font-bold text-white">Data Engineer</h3>
-                                    <p class="text-sm font-medium text-slate-500">SCI Software Development SAS — Remote
-                                    </p>
-                                </div>
-                                <ul class="list-none space-y-2 text-slate-400 text-sm flex-grow">
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Built scalable
-                                        ETL pipelines in Python and SQL on Google Cloud (BigQuery, Cloud Functions,
-                                        Cloud Storage).</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Processed
-                                        high-volume datasets efficiently with optimized batch and concurrency
-                                        strategies.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Integrated and
-                                        managed external APIs (WhatsApp, SMS, OneSignal) for automated workflows.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Implemented
-                                        monitoring, auditing, and alerting for reliable data operations.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Delivered data
-                                        projects ahead of schedule, ensuring robust and scalable solutions.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Role 2 -->
-                        <div class="w-[80vw] sm:w-[70vw] md:w-[400px] flex-shrink-0 snap-start flex flex-col">
-                            <div class="w-4 h-4 bg-brand rounded-full border-2 border-[#121212] shadow-sm mb-8"></div>
-                            <div class="bg-brand-surface/95 backdrop-blur-sm p-6 border border-white/10 rounded-custom shadow-sm 
-        h-[500px] md:h-[420px] flex flex-col overflow-y-auto">
-                                <div class="flex flex-col mb-4">
-                                    <span class="text-xs font-mono text-brand/60 uppercase tracking-widest mb-1">Oct,
-                                        2025 —
-                                        Dec, 2025</span>
-                                    <h3 class="text-lg font-bold text-white">Academic and Tech Support Analyst</h3>
-                                    <p class="text-sm font-medium text-slate-500">FUNDACER (UTTalento) — Tunja, Boyacá
-                                    </p>
-                                </div>
-                                <ul class="list-none space-y-2 text-slate-400 text-sm flex-grow">
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Automated daily
-                                        academic tracking reports, ensuring data accuracy and traceability.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Developed
-                                        dashboards and management reports using Excel and Power BI.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Monitored
-                                        performance metrics to detect issues and trends.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Supported
-                                        process optimization through data analysis and improvement proposals.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Analyzed
-                                        attendance and certification data of participants using Python and Power BI.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Role 3 -->
-                        <div class="w-[80vw] sm:w-[70vw] md:w-[400px] flex-shrink-0 snap-start flex flex-col">
-                            <div class="w-4 h-4 bg-brand rounded-full border-2 border-[#121212] shadow-sm mb-8"></div>
-                            <div class="bg-brand-surface/95 backdrop-blur-sm p-6 border border-white/10 rounded-custom shadow-sm 
-            h-[500px] md:h-[420px] flex flex-col overflow-y-auto">
-                                <div class="flex flex-col mb-4">
-                                    <span class="text-xs font-mono text-brand/60 uppercase tracking-widest mb-1">Mar,
-                                        2024 —
-                                        May, 2024</span>
-                                    <h3 class="text-lg font-bold text-white">Data Analyst</h3>
-                                    <p class="text-sm font-medium text-slate-500">Teleperformance — Hybrid (Bogotá)</p>
-                                </div>
-                                <ul class="list-none space-y-2 text-slate-400 text-sm flex-grow">
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Developed and
-                                        maintained dimensional data models, improving OLAP query efficiency and handling
-                                        large datasets.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Created
-                                        dashboards and visualizations in Power BI and Excel to track KPIs and metrics,
-                                        supporting decision-making.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Proposed
-                                        improvements in data extraction and transformation processes to enhance
-                                        efficiency and ensure continuous improvement.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Role 4 -->
-                        <div class="w-[80vw] sm:w-[70vw] md:w-[400px] flex-shrink-0 snap-start flex flex-col">
-                            <div class="w-4 h-4 bg-brand rounded-full border-2 border-[#121212] shadow-sm mb-8"></div>
-                            <div class="bg-brand-surface/95 backdrop-blur-sm p-6 border border-white/10 rounded-custom shadow-sm 
-            h-[500px] md:h-[420px] flex flex-col overflow-y-auto">
-                                <div class="flex flex-col mb-4">
-                                    <span class="text-xs font-mono text-brand/60 uppercase tracking-widest mb-1">Nov,
-                                        2022 —
-                                        Apr, 2023</span>
-                                    <h3 class="text-lg font-bold text-white">RPG Developer</h3>
-                                    <p class="text-sm font-medium text-slate-500">Sistemas GYG SA — Motavita, Boyacá</p>
-                                </div>
-                                <ul class="list-none space-y-2 text-slate-400 text-sm flex-grow">
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Provided
-                                        technical support for critical financial systems in high-availability
-                                        environments.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Performed
-                                        advanced DB2 queries to analyze transactions and resolve production issues.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Monitored
-                                        critical batch jobs, identifying and fixing errors to ensure operational
-                                        continuity.</li>
-                                    <li class="flex items-start"><span class="mr-2 text-brand">▹</span> Completed RPG
-                                        training in Oct 2022.</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div id="experience-cards" class="flex gap-8 snap-x snap-mandatory relative z-10 px-0">
+                        <!-- Dynamically populated by data-loader.js -->
                     </div>
                 </div>
             </div>
@@ -435,134 +324,8 @@
             <h2 class="academic-title text-3xl font-bold mb-12 flex items-center text-white">
                 <span class="mr-4 text-brand/30">02.</span> Selected Projects
             </h2>
-            <div class="flex overflow-x-auto gap-6 pb-8 hide-scrollbar snap-x snap-mandatory">
-                <!-- Project Card 1 -->
-                <div
-                    class="min-w-[85vw] md:min-w-[400px] h-[520px] md:h-[450px] bg-brand-surface border border-white/10 p-8 rounded-custom shadow-sm hover:shadow-md transition-shadow group flex flex-col snap-start">
-                    <div class="flex-grow">
-                        <div class="mb-6 text-brand">
-                            <svg class="h-10 w-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
-                            </svg>
-                        </div>
-                        <h3
-                            class="academic-title text-xl font-bold mb-3 text-white group-hover:text-brand transition-colors">
-                            Geospatial Crime Analytics – Public Safety Data Product</h3>
-                        <p class="text-slate-400 text-sm mb-6">
-                            The target of this project is to analyze the crimes data recolected from police database, so
-                            you
-                            could invest more time taking decisions and less in cleaning, organizing and building
-                            insights
-                            from raw data.
-                        </p>
-                    </div>
-                    <div
-                        class="flex flex-wrap gap-2 text-[10px] font-mono uppercase tracking-widest text-slate-300 mb-6">
-                        <span>Python</span> <span>Power-BI</span> <span>AWS-RDS-PostgreSQL</span>
-                        <span>Google-Drive-API</span>
-                    </div>
-                    <div class="flex items-center space-x-4 border-t border-white/5 pt-4 mt-auto">
-                        <a class="flex items-center text-xs font-bold text-slate-300 hover:text-brand transition-colors"
-                            href="https://github.com/JSEB99/police-etl">
-                            <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewbox="0 0 24 24">
-                                <path
-                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.82 1.102.82 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                </path>
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-                <!-- Project Card 2 -->
-                <div
-                    class="min-w-[85vw] md:min-w-[400px] h-[520px] md:h-[450px] bg-brand-surface border border-white/10 p-8 rounded-custom shadow-sm hover:shadow-md transition-shadow group flex flex-col snap-start">
-                    <div class="flex-grow">
-                        <div class="mb-6 text-brand">
-                            <svg class="h-10 w-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
-                            </svg>
-                        </div>
-                        <h3
-                            class="academic-title text-xl font-bold mb-3 text-white group-hover:text-brand transition-colors">
-                            Predictive Health Resources - ETL</h3>
-                        <p class="text-slate-400 text-sm mb-6">
-                            Developed a predictive model to forecast patient demand across healthcare facilities using
-                            historical and operational data, enabling optimized allocation of staff, beds, and supplies.
-                            Conducted data analysis, built a star schema, and deployed the model to improve efficiency
-                            and
-                            responsiveness in healthcare services.
-                        </p>
-                    </div>
-                    <div
-                        class="flex flex-wrap gap-2 text-[10px] font-mono uppercase tracking-widest text-slate-300 mb-6">
-                        <span>Polars</span> <span>Streamlit</span> <span>FastAPI</span> <span>NumPy</span>
-                        <span>BigQuery</span> <span>Scikit-Learn</span>
-                    </div>
-                    <div class="flex items-center space-x-4 border-t border-white/5 pt-4 mt-auto">
-                        <a class="flex items-center text-xs font-bold text-slate-300 hover:text-brand transition-colors"
-                            href="https://github.com/JSEB99/predictive-health-resources">
-                            <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewbox="0 0 24 24">
-                                <path
-                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.82 1.102.82 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                </path>
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-                <!-- Project Card 3 -->
-                <div
-                    class="min-w-[85vw] md:min-w-[400px] h-[520px] md:h-[450px] bg-brand-surface border border-white/10 p-8 rounded-custom shadow-sm hover:shadow-md transition-shadow group flex flex-col snap-start">
-                    <div class="flex-grow">
-                        <div class="mb-6 text-brand">
-                            <svg class="h-10 w-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
-                            </svg>
-                        </div>
-                        <h3
-                            class="academic-title text-xl font-bold mb-3 text-white group-hover:text-brand transition-colors">
-                            Supply Chain Delay Risk Predictor – AI &amp; ETL Dashboard</h3>
-                        <p class="text-slate-400 text-sm mb-6">
-                            Developed SupplyRisk AI, a predictive model to classify and forecast shipment delays using
-                            machine learning on global supply chain data. Analyzed key risk factors and provided
-                            insights
-                            for optimizing logistics and generating early delay alerts.
-                        </p>
-                    </div>
-                    <div
-                        class="flex flex-wrap gap-2 text-[10px] font-mono uppercase tracking-widest text-slate-300 mb-6">
-                        <span>Supabase</span> <span>Streamlit</span> <span>PostgreSQL</span> <span>Python</span>
-                        <span>Pandas</span> <span>Scikit-Learn</span>
-                    </div>
-                    <div class="flex items-center space-x-4 border-t border-white/5 pt-4 mt-auto">
-                        <a class="flex items-center text-xs font-bold text-slate-300 hover:text-brand transition-colors"
-                            href="https://www.youtube.com/watch?v=MP54oDOi87g&feature=youtu.be">
-                            <svg class="w-4 h-4 mr-1.5 text-brand" fill="currentColor" viewbox="0 0 24 24">
-                                <path
-                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z">
-                                </path>
-                            </svg>
-                            Demo
-                        </a>
-                        <a class="flex items-center text-xs font-bold text-slate-300 hover:text-brand transition-colors"
-                            href="https://github.com/JSEB99/supply-chain-delay-risk-predictor">
-                            <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewbox="0 0 24 24">
-                                <path
-                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.82 1.102.82 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                </path>
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
+            <div id="project-cards" class="flex overflow-x-auto gap-6 pb-8 hide-scrollbar snap-x snap-mandatory">
+                <!-- Dynamically populated by data-loader.js -->
             </div>
         </section>
         <!-- END: Projects Section -->
@@ -577,19 +340,9 @@
                     <h3
                         class="text-xs font-mono uppercase tracking-[0.2em] text-slate-500 mb-6 border-b border-white/10 pb-2">
                         Core Education</h3>
-                    <div class="flex overflow-x-auto gap-8 pb-4 hide-scrollbar snap-x snap-mandatory">
-                        <div class="min-w-[300px] border-l-2 border-brand/20 pl-6 snap-start">
-                            <h4 class="font-bold text-lg text-white mb-1">B.S. in Electronic Engineering</h4>
-                            <p class="text-brand italic mb-2">Universidad Pedagógica y Tecnológica de Colombia</p>
-                            <p class="text-sm text-slate-500">Strong foundation in programming, data management, and
-                                electronic systems.</p>
-                        </div>
-                        <div class="min-w-[300px] border-l-2 border-brand/20 pl-6 snap-start">
-                            <h4 class="font-bold text-lg text-white mb-1">Database Specialization</h4>
-                            <p class="text-brand italic mb-2">Universidad Pedagógica y Tecnológica de Colombia</p>
-                            <p class="text-sm text-slate-500">Post-graduate studies in Database Management and Data
-                                Flows</p>
-                        </div>
+                    <div id="core-education-items"
+                        class="flex overflow-x-auto gap-8 pb-4 hide-scrollbar snap-x snap-mandatory">
+                        <!-- Dynamically populated by data-loader.js -->
                     </div>
                 </div>
                 <!-- Professional Certifications Stacked -->
@@ -597,22 +350,9 @@
                     <h3
                         class="text-xs font-mono uppercase tracking-[0.2em] text-slate-500 mb-6 border-b border-white/10 pb-2">
                         Professional Certifications</h3>
-                    <div class="flex overflow-x-auto gap-8 pb-4 hide-scrollbar snap-x snap-mandatory">
-                        <div class="min-w-[280px] border-l-2 border-brand/20 pl-6 snap-start">
-                            <h4 class="font-bold text-lg text-white mb-1">Azure Data Scientist - DP100</h4>
-                            <p class="text-brand italic mb-2">Microsoft</p>
-                            <p class="text-sm text-slate-500">Associate Level Certification</p>
-                        </div>
-                        <div class="min-w-[280px] border-l-2 border-brand/20 pl-6 snap-start">
-                            <h4 class="font-bold text-lg text-white mb-1">Azure Data Fundamentals - DP900</h4>
-                            <p class="text-brand italic mb-2">Microsoft</p>
-                            <p class="text-sm text-slate-500">Fundamentals Certification</p>
-                        </div>
-                        <div class="min-w-[280px] border-l-2 border-brand/20 pl-6 snap-start">
-                            <h4 class="font-bold text-lg text-white mb-1">Oracle Cloud Infrastructure 2025</h4>
-                            <p class="text-brand italic mb-2">Oracle</p>
-                            <p class="text-sm text-slate-500">Foundations Associate Certification</p>
-                        </div>
+                    <div id="certification-items"
+                        class="flex overflow-x-auto gap-8 pb-4 hide-scrollbar snap-x snap-mandatory">
+                        <!-- Dynamically populated by data-loader.js -->
                     </div>
                 </div>
             </div>
@@ -627,7 +367,7 @@
                     architecture.
                 </p>
                 <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-12">
-                    <a class="text-brand font-bold hover-link flex items-center" href="mailto:juan.s.mora@example.com">
+                    <a class="text-brand font-bold hover-link flex items-center" href="mailto:sebastian.mt99@gmail.com">
                         Email
                     </a>
                     <a class="text-brand font-bold hover-link flex items-center"
