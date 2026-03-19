@@ -29,6 +29,16 @@ body {
 .hide-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+    cursor: grab;
+    user-select: none;
+}
+
+/* Clase que aplicaremos con JS mientras se arrastra */
+.hide-scrollbar.active {
+    cursor: grabbing;
+    /* Muestra una mano cerrada */
+    scroll-behavior: auto;
+    /* Desactiva el smooth scroll temporalmente para respuesta inmediata */
 }
 
 section[id] {
@@ -52,4 +62,23 @@ html {
 [data-purpose="tech-stack"]>div>div>div:first-child {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+/* Animación de pulso horizontal para el indicador móvil */
+@keyframes pulse-horizontal {
+
+    0%,
+    100% {
+        transform: translateX(0);
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translateX(6px);
+        opacity: 1;
+    }
+}
+
+.animate-pulse-horizontal {
+    animation: pulse-horizontal 2s infinite ease-in-out;
 }

@@ -37,3 +37,41 @@ document.addEventListener("DOMContentLoaded", function () {
         window.open("https://wa.me/" + phone + "?text=" + text, "_blank");
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const sliders = document.querySelectorAll('.hide-scrollbar');
+
+    sliders.forEach(slider => {
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('active');
+            // Calculamos la posición inicial
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return; // Si no estamos haciendo clic, no hace nada
+            e.preventDefault();
+
+            // Calculamos cuánto se ha movido el mouse
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 2; // Multiplicador de velocidad (2 es ideal)
+            slider.scrollLeft = scrollLeft - walk;
+        });
+    });
+});

@@ -120,7 +120,7 @@ function renderProjects(projects, maxCount = 3) {
         }
 
         return `
-        <div class="min-w-[85vw] md:min-w-[400px] h-[520px] md:h-[450px] bg-brand-surface border border-white/10 p-8 rounded-custom shadow-sm hover:shadow-md transition-shadow group flex flex-col snap-start">
+        <div class="min-w-[85vw] min-[420px]:min-w-[400px] h-[520px] min-[420px]:h-[450px] bg-brand-surface border border-white/10 p-8 rounded-custom shadow-sm hover:shadow-md transition-shadow group flex flex-col snap-start">
             <div class="flex-grow">
                 <div class="mb-6 text-brand">${icon}</div>
                 <h3 class="academic-title text-xl font-bold mb-3 text-white group-hover:text-brand transition-colors">
