@@ -8,10 +8,24 @@
     "jobs": [
         {
             "position": "Data Engineer",
+            "company": "Casa Editorial El Tiempo",
+            "location": "Hybrid (Bogotá)",
+            "startDate": "2026-05",
+            "endDate": "Present",
+            "description": [
+                "Built ETL pipelines on Google Cloud using Python and SQL.",
+                "Automated daily workflows with Cloud Run Jobs, Dataproc and Cloud Scheduler",
+                "Integrated APIs such as HubSpot, Zendesk, WhatsApp, and OneSignal.",
+                "Optimized large-scale data processing, reducing runtimes by 60%.",
+                "Managed multiple data projects with monitoring and alerting systems."
+            ]
+        },
+        {
+            "position": "Data Engineer",
             "company": "SCI Software Development SAS",
             "location": "Remote",
             "startDate": "2026-01",
-            "endDate": "Present",
+            "endDate": "2026-05",
             "description": [
                 "Built scalable ETL pipelines in Python and SQL on Google Cloud (BigQuery, Cloud Functions, Cloud Storage).",
                 "Processed high-volume datasets efficiently with optimized batch and concurrency strategies.",
@@ -128,6 +142,21 @@
                 "title": "Oracle Cloud Infrastructure 2025",
                 "institution": "Oracle",
                 "description": "Foundations Associate Certification"
+            },
+            {
+                "title": "Database Development with SQL",
+                "institution": "SENA",
+                "description": "SQL Fundamentals"
+            },
+            {
+                "title": "Data Analysis Bootcamp (159 hrs.)",
+                "institution": "Ministerio TIC - Colombia",
+                "description": "Data analysis with Python & Power BI Fundamentals"
+            },
+            {
+                "title": "Bootcamp Data Science (300 hrs.)",
+                "institution": "Corporación Universitaria Ibéroamericana",
+                "description": "Python for Machine Learning"
             }
         ]
     }
